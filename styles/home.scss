@@ -289,7 +289,7 @@ ul {
       margin-top: -298px;
       transform: translateX(100vw);
     }
-    // overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   .more-icons {
@@ -308,7 +308,7 @@ ul {
       margin-top: -421px;
       transform: translateX(125vw);
     }
-    // overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   .footer {
@@ -322,10 +322,8 @@ ul {
       padding-top: 25px;
       opacity: 0.5;
     }
-
     padding-top: 25px;
   }
-
 }
 
 @media(max-width: 550px) {
@@ -382,7 +380,7 @@ ul {
       margin-top: -421px;
       transform: translateX(250vw);
     }
-    // overflow-x: hidden;
+    overflow-x: hidden;
   }
 
 }
