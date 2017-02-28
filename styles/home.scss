@@ -337,6 +337,11 @@ ul {
 }
 
 @media(max-width: 550px) {
+  .topbar {
+    .main-nav {
+      display: none;
+    }
+  }
   .travel-query {
     select {
       width: 85vw;
