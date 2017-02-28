@@ -261,7 +261,6 @@ class Home extends Component {
         </div>
 
         <div className="deals">
-
           <div className="column column-2">
             <div className="header deals-header">
               Get Deals, Offers, and More.

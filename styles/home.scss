@@ -211,6 +211,8 @@ ul {
   background: $lightgray;
 }
 
+/************** FOOTER **************/
+
 .footer {
   .social-media {
     i {
@@ -326,6 +328,12 @@ ul {
   }
 }
 
+@media(max-width: 650px) {
+  .deals {
+    height: 250px;
+  }
+}
+
 @media(max-width: 550px) {
   .travel-query {
     select {
@@ -383,4 +391,18 @@ ul {
     overflow-x: hidden;
   }
 
+  .deals {
+    .column-2 {
+      width: 100%;
+      padding: 15px 0;
+    }
+    height: 325px;
+    padding: 10px 25px;
+  }
+
+  .footer {
+    .column-6 {
+      width: 50%;
+    }
+  }
 }
