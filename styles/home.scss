@@ -1,3 +1,388 @@
 .home {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: $gray;
+  padding: 15px 8px;
+  border: 1px solid $gray;
+  width: 150px;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  border: 1px solid $purple;
+}
+
+.header {
+  color: $purple;
+  font-size: 1.2em;
+}
+
+.topbar {
+  .logo {
+    height: inherit;
+    float: left;
+    margin: 20px;
+  }
+  .main-nav {
+    li {
+      float: left;
+      font-weight: 700;
+      margin-right: 25px;
+      text-transform: uppercase;
+    }
+    margin: 20px;
+    float: left;
+  }
+  .sub-nav {
+    li {
+      text-transform: none;
+      font-weight: 400;
+    }
+    font-size: 0.7em;
+    margin: 22px;
+  }
+
+  .menu-img {
+    width: 30px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    margin-top: 15px;
+    position: absolute;
+    right: 25px;
+    visibility: hidden;
+    cursor: pointer;
+  }
+
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background: $purple; 
+  background: -webkit-linear-gradient(left, $purple, $red); 
+  background: -o-linear-gradient(right, $purple, $red); 
+  background: -moz-linear-gradient(right, $purple, $red); 
+  background: linear-gradient(to right, $purple, $red); 
   color: white;
+}
+
+
+/************** TRAVEL QUERY **************/
+
+.travel-query {
+  .options {
+    input {
+      margin: 0 3px 0 15px;
+    }
+
+    width: 400px;
+    font-size: 0.8em;
+    border-bottom: solid 1px $gray;
+    padding: 5px 0 10px 0;
+    margin: auto;
+  }
+
+  .where {
+    margin-top: 50px;
+    font-size: 1.7em;
+    font-weight: 200;
+  }
+  select {
+    color: $purple;
+    background: white;
+    font-family: 'Montserrat';
+    -webkit-appearance: none;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 0 0 4px hsl(0, 0%, 95%),
+    0 0 0 5px hsl(0, 0%, 85%);
+    width: 25vw;
+    padding: 15px 15px;
+    margin: 35px 15px;
+  }
+  margin: 75px 0 0 0 ;
+  padding: 20px 0 50px 0;
+  text-align: center;
+}
+
+/************** ONBOARDING **************/
+
+.onboarding {
+  img {
+    width: 150px;
+  }
+
+  .ob-header {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+
+  .ob-description {
+    font-size: 0.8em;
+    color: $medium-gray;
+  }
+
+  .ob-button {
+    font-size: 0.7em;
+    font-weight: 500;
+    color: $black;
+    padding: 10px 5px;
+  }
+  width: 100vw;
+  height: 300px;
+  padding: 50px 0;
+  background: $lightgray;
+}
+
+/************** ADDITIONAL ICONS **************/
+
+.more-icons {
+  .column-6 {
+    padding: 15px;
+    background: white;
+  }
+  .icons-header {
+    display: inline-block;
+    height: 65px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+  }
+
+  .icon {
+    vertical-align: top;
+    margin-bottom: 25px;
+    height: 100px;
+    width: 100px;
+    opacity: 0.8;
+  }
+
+  .icons-description {
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    height: 125px;
+  }
+
+  .icons-button {
+    color: $black;
+    font-size: 0.7em;
+    padding: 15px 4px;
+  }
+
+  height: 425px;
+  padding: 50px 0;
+
+}
+
+/************** DEALS **************/
+
+.deals {
+  .deals-header {
+    font-size: 1.1em;
+  }
+
+  .deals-descrip {
+    font-size: 0.8em;
+    font-family: 'Roboto';
+    padding: 15px 15px 15px 0;
+  }
+
+  .deals-button {
+    margin: 0;
+    color: $black;
+    padding: 10px;
+    font-size: 0.65em;
+  }
+  height: 200px;
+  padding: 50px 25px 0 25px;
+  background: $lightgray;
+}
+
+.footer {
+  .social-media {
+    i {
+      margin: 0 5px;
+    }
+    clear: both;
+    margin-left: 25px;
+    padding-bottom: 25px;
+  }
+
+  .column-6 {
+    ul {
+      font-family: 'Roboto';
+      margin: 50px 25px;
+      li {
+        margin: 10px 0;
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .bottom-bar {
+    width: 100vw;
+    height: 25px;
+    background: $purple;
+    margin-top: 25px;
+  }
+  padding: 0px 0;
+}
+
+.column {
+  box-sizing: border-box;
+  float: left;
+}
+
+.column-2 {
+  width: 50%;
+}
+
+.column-3 {
+  width: 33.33vw;
+  padding: 0 40px;
+}
+
+.column-6 {
+  img {
+    width: 150px;
+  }
+  width: 16.66vw;
+}
+
+.align-center {
+  text-align: center;
+}
+
+
+/************** MEDIA QUERIES **************/
+
+@media(max-width: 1025px) {
+  .topbar {
+    .sub-nav {
+      display: none;
+    }
+    .menu-img {
+      visibility: visible;
+    }
+  }
+
+  .onboarding {
+    .column-3 {
+      width: 50vw;
+    }
+
+    .column-3:nth-child(3) {
+      clear: both;
+      margin-top: -298px;
+      transform: translateX(100vw);
+    }
+    // overflow-x: hidden;
+  }
+
+  .more-icons {
+    .column-6 {
+      width: 25%;
+    }
+
+    .column-6:nth-child(5) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(100vw);
+    }
+
+    .column-6:nth-child(6) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(125vw);
+    }
+    // overflow-x: hidden;
+  }
+
+  .footer {
+    .column-6 { 
+      ul {
+        margin: 0 25px;
+      }
+      width: 25%;
+    }
+    .social-media {
+      padding-top: 25px;
+      opacity: 0.5;
+    }
+
+    padding-top: 25px;
+  }
+
+}
+
+@media(max-width: 550px) {
+  .travel-query {
+    select {
+      width: 85vw;
+      margin: 20px 10px;
+    }
+  }
+
+  .onboarding {
+    .column-3 {
+      width: 100vw;
+    }
+
+    .column-3:nth-child(2) {
+      clear: both;
+      margin-top: -284px;
+      transform: translateX(100vw);
+    }
+
+    .column-3:nth-child(3) {
+      clear: both;
+      margin-top: -298px;
+      transform: translateX(200vw);
+    }
+  }
+
+  .more-icons {
+    .column-6 {
+      width: 50%;
+    }
+
+    .column-6:nth-child(3) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(100vw);
+    }
+
+    .column-6:nth-child(4) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(150vw);
+    }
+
+    .column-6:nth-child(5) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(200vw);
+    }
+
+    .column-6:nth-child(6) {
+      clear: both;
+      margin-top: -421px;
+      transform: translateX(250vw);
+    }
+    // overflow-x: hidden;
+  }
+
 }
