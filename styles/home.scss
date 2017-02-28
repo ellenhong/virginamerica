@@ -78,6 +78,7 @@ ul {
   background: -moz-linear-gradient(right, $purple, $red); 
   background: linear-gradient(to right, $purple, $red); 
   color: white;
+  z-index: 100;
 }
 
 
@@ -221,6 +222,8 @@ ul {
     clear: both;
     margin-left: 25px;
     padding-bottom: 25px;
+    opacity: 0.5;
+    cursor: pointer;
   }
 
   .column-6 {
@@ -322,7 +325,6 @@ ul {
     }
     .social-media {
       padding-top: 25px;
-      opacity: 0.5;
     }
     padding-top: 25px;
   }
