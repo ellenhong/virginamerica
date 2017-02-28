@@ -364,7 +364,7 @@ export class HomeComponent extends Component {
 
 
 HomeComponent.propTypes = {
-  number: PropTypes.number.isRequired,
+  // number: PropTypes.number.isRequired,
   onTick: PropTypes.func.isRequired,
   // onIncreaseClick: PropTypes.func.isRequired,
   // onDecreaseClick: PropTypes.func.isRequired,
